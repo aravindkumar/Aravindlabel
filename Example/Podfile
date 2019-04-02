@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Aravindlabel_Example' do
+  pod 'Aravindlabel', :path => '../'
+
+  target 'Aravindlabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
